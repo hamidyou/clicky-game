@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import './App.css'
 import Header from './Header/Header'
 import Scoreboard from './Scoreboard/Scoreboard'
+import Cards from './Cards/Cards'
 
 const App = () => {
   return (
     <div className='App'>
       <Header />
-      <Scoreboard score='4' highScore='6' />
+      <Scoreboard />
+      <Cards />
     </div>
   )
 }
