@@ -1,12 +1,16 @@
-import React, { Component } from 'react'
-import { Card, CardImg, Row, Col, Container } from 'reactstrap'
+import React from 'react'
+import { Col } from 'reactstrap'
+import './Cards.css'
 
-const Cards = props => (
-  <div>
-    <Card onClick={props.selectMovie} id={props.id}>
-      <CardImg src={props.image} />
-    </Card>
+const Cards = props => {
+  return (<div>
+    <Col>
+      <section onClick={() => props.selectMovie(props.id)} id={props.id}>
+        <img alt='' src={props.image} />
+      </section>
+    </Col>
   </div>
-)
+  )
+}
 
 export default Cards

@@ -9,7 +9,7 @@ import { concat, includes } from 'kyanite/dist/kyanite'
 class App extends Component {
   state = {
     selected: [],
-    currentScore: "0",
+    currentScore: 0,
     highScore: "2"
   }
 
@@ -18,12 +18,14 @@ class App extends Component {
   selectMovie = id => {
     const selectedMovies = this.state.selected
     if (includes(id, selectedMovies)) {
-      return alert('Game over....you lose!')
+      return alert('Game Over')
     } else {
       let score = this.state.currentScore
+      console.log(score);
       this.setState({
-        currentScore: score++
+        currentScore: score + 1
       })
+      console.log(this.state);
       this.checkScore(this.state.currentScore)
       this.setState({
         selected: concat(id, selectedMovies)
@@ -35,14 +37,17 @@ class App extends Component {
     return (
       <div className='App' >
         <Header />
-        <Scoreboard />
-        {movies.map(movie => (
-          <Cards
-            selectMovie={this.selectMovie}
-            id={movie.id}
-            key={movie.id}
-            image={movie.src}
-          />))}
+        <Scoreboard currentScore={this.state.currentScore} highScore={this.state.highScore} />
+        <div class='grid'>
+          {movies.map(movie => (
+            <Cards
+              selectMovie={this.selectMovie}
+              id={movie.id}
+              key={movie.id}
+              image={movie.src}
+            />))}
+        </div>
+
       </div>
     )
   }
