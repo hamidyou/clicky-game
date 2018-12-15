@@ -6,9 +6,7 @@ class Header extends Component {
   render () {
     return (
       <div id='heroDiv'>
-        <Jumbotron id='hero'>
-          <h1 className='display-3'>Disney Memory</h1>
-        </Jumbotron>
+        <Jumbotron id='hero' />
       </div>
     )
   }

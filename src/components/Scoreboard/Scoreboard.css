@@ -1,10 +1,13 @@
 .wrapper {
   display: grid;
   width: 100%;
-  background-color: black;
-  color: white;
   padding: 1rem 0;
   grid-template-columns: 50% 50%;
-  margin: auto
+  margin: auto;
+  position:fixed;
+  top:0;
+  z-index:100;
 }
+
+
 
