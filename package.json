@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "4.1.3",
+    "gh-pages": "^2.0.1",
     "kyanite": "0.10.3",
     "react": "16.6.3",
     "react-dom": "16.6.3",
@@ -11,6 +12,8 @@
     "reactstrap": "6.5.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -24,5 +27,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage": "https://hamidyou.github.io/clicky-game"
 }
