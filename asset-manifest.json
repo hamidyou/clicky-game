@@ -1,16 +1,16 @@
 {
-  "main.css": "/clicky-game/static/css/main.53532577.chunk.css",
-  "main.js": "/clicky-game/static/js/main.106a3255.chunk.js",
-  "main.js.map": "/clicky-game/static/js/main.106a3255.chunk.js.map",
+  "main.css": "/clicky-game/static/css/main.48f25b64.chunk.css",
+  "main.js": "/clicky-game/static/js/main.ae5253ee.chunk.js",
+  "main.js.map": "/clicky-game/static/js/main.ae5253ee.chunk.js.map",
   "static/css/1.f27cb5d1.chunk.css": "/clicky-game/static/css/1.f27cb5d1.chunk.css",
   "static/js/1.3ca83a3d.chunk.js": "/clicky-game/static/js/1.3ca83a3d.chunk.js",
   "static/js/1.3ca83a3d.chunk.js.map": "/clicky-game/static/js/1.3ca83a3d.chunk.js.map",
   "runtime~main.js": "/clicky-game/static/js/runtime~main.6acb6692.js",
   "runtime~main.js.map": "/clicky-game/static/js/runtime~main.6acb6692.js.map",
-  "static/css/main.53532577.chunk.css.map": "/clicky-game/static/css/main.53532577.chunk.css.map",
-  "static/media/Header.css": "/clicky-game/static/media/disney-hero.15916205.jpg",
   "static/css/1.f27cb5d1.chunk.css.map": "/clicky-game/static/css/1.f27cb5d1.chunk.css.map",
+  "static/media/Header.css": "/clicky-game/static/media/disney-hero.15916205.jpg",
+  "static/css/main.48f25b64.chunk.css.map": "/clicky-game/static/css/main.48f25b64.chunk.css.map",
   "index.html": "/clicky-game/index.html",
-  "precache-manifest.d54b3206bdf4c3ed12ff2995ebf1edc6.js": "/clicky-game/precache-manifest.d54b3206bdf4c3ed12ff2995ebf1edc6.js",
+  "precache-manifest.1ee502c6dbd3570b9564d29ce2d91fb0.js": "/clicky-game/precache-manifest.1ee502c6dbd3570b9564d29ce2d91fb0.js",
   "service-worker.js": "/clicky-game/service-worker.js"
 }
